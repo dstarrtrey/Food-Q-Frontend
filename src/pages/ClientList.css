@@ -1,0 +1,49 @@
+.clientListWait {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: center;
+}  
+
+.clientSection {
+padding: 50px 5px 50px 5px;
+background-image: linear-gradient(to right, #cb2d3e, #e65337)!important;
+}
+
+.clientHr {
+  margin-bottom: 100px;
+}
+
+.card-header {
+  background-color: #2e97c0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-align:center;
+}
+
+.card-title {
+  text-align:center;
+}
+
+
+.partyInfo {
+  padding: 50px 5px 50px 5px;
+}
+
+
+
+.waitDetails {
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #2e97c0;
+}
+
+/* .sliderQuotes {
+  margin-top: 50px;
+} */

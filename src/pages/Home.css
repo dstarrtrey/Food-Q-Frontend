@@ -1,0 +1,19 @@
+.styledHome {
+  background-image: linear-gradient(to right, #cb2d3e, #e65337);
+}
+
+.styledHome p {
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+
+}
+
+.introheader {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+} 

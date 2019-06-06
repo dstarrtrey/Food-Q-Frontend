@@ -1,0 +1,56 @@
+{
+  "name": "food-q",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-cache-inmemory": "^1.6.0",
+    "apollo-client": "^2.6.0",
+    "apollo-link": "^1.2.11",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "apollo-link-ws": "^1.0.17",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "env-cmd": "^9.0.2",
+    "graphql": "^14.3.0",
+    "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
+    "serve": "^11.0.1",
+    "styled-components": "^4.2.0",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "scripts": {
+    "start": "serve -s build -l $PORT",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "dev": "react-scripts start",
+    "deploy": "serve -s build -l 3000",
+    "docker": "start npm run dev && start npm run dev --prefix ../backend"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

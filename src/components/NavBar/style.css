@@ -1,0 +1,35 @@
+nav.navbar.navbar-default {
+
+  margin-bottom: 0;
+  
+}
+
+.navbarar {
+
+  background-image: linear-gradient(to right, #cb2d3e, #e65337, lightskyblue);
+
+}
+/* change to icon for home */
+.angryfish1 {
+
+  width: 80px;
+  height: 20px;
+  padding: 0;
+
+}
+/* change to icon for menu */
+.angryfish2 {
+
+  width: 50px;
+  height: 20px;
+  padding: 0;
+
+}
+/* change to icon for waiting */
+.angryfish3 {
+
+  width: 50px;
+  height: 20px;
+  padding: 0;
+
+}

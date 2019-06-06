@@ -1,0 +1,38 @@
+.banner {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .banner::after {
+    content: "";
+    display: block;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+  }
+  
+  .banner * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .banner h1, .banner h2 {
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 60px;
+    padding-top: 200px;
+    margin-top: 0;
+  }
+
+  .restauranttitle h1 {
+    padding-top: 100px;
+  }
+  

@@ -1,0 +1,14 @@
+.menustyledHome {
+    background-image: linear-gradient(to right, #cb2d3e, #e65337);
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  
+  .menustyledHome p {
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+  
+  }
+  
